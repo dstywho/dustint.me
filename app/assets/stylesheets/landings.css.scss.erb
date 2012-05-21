@@ -1,0 +1,66 @@
+// Place all the styles related to the landings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$sprite: '<%= asset_path 'thoughts-sprite.png' %>';
+
+
+.wrap{
+  margin: 0px auto;
+  width:415px;
+}
+.main{
+  height:455px;
+  width:415px;
+  position:absolute;
+  margin:0px auto;
+  background: url('<%= asset_path 'phren-only.png' %>') ;
+}
+.main nav{
+  margin: 0px auto;
+}
+.main nav a{
+  position:absolute;
+  display:block;
+  color:transparent;
+  opacity:.5;
+}
+.main nav a:hover{
+  opacity:1;
+}
+.twitter{
+  top:92px;
+  left:164px;
+  background: url($sprite) -293px -194px;
+  height:92px;
+  width:109px;
+} 
+.facebook{
+  background: url($sprite) 0px 0px;
+  width:100px;
+  height:125px;
+  left:257px;
+  top:174px;
+} 
+.email{
+  background: url($sprite) -0px -208px;
+  width:174px;
+  height:64px;
+  left:96px;
+  top:30px;
+} 
+.gplus{
+  background: url($sprite) -145px -0px;
+  width:95px;
+  height:96px;
+  left:75px;
+  top:88px;
+} 
+.github{
+  background: url($sprite) -287px 0px;
+  height:138px;
+  width:115px;
+  left:242px;
+  top:47px;
+} 
+.clear-left{clear:left;}
