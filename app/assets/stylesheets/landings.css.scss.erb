@@ -5,6 +5,10 @@
 $sprite: '<%= asset_path 'thoughts-sprite.png' %>';
 
 
+body{
+  background: url('<%= asset_path 'paper_pattern.png' %>');
+  background-size: 200px 200px;
+}
 .wrap{
   margin: 0px auto;
   width:415px;
@@ -14,6 +18,7 @@ $sprite: '<%= asset_path 'thoughts-sprite.png' %>';
   width:415px;
   position:absolute;
   margin:0px auto;
+  opacity: 0.8;
   background: url('<%= asset_path 'phren-only.png' %>') ;
 }
 .main nav{
@@ -26,38 +31,38 @@ $sprite: '<%= asset_path 'thoughts-sprite.png' %>';
   opacity:.5;
 }
 .main nav a:hover{
-  opacity:1;
+  opacity:.8;
 }
 .twitter{
   top:92px;
   left:164px;
-  background: url($sprite) -293px -194px;
+  background: url($sprite) -275px -0px;
   height:92px;
   width:109px;
 } 
 .facebook{
-  background: url($sprite) 0px 0px;
+  background: url($sprite) -525px 0px;
   width:100px;
   height:125px;
   left:257px;
   top:174px;
 } 
 .email{
-  background: url($sprite) -0px -208px;
+  background: url($sprite) -100px -0px;
   width:174px;
   height:64px;
   left:96px;
   top:30px;
 } 
 .gplus{
-  background: url($sprite) -145px -0px;
+  background: url($sprite) -0px -0px;
   width:95px;
   height:96px;
   left:75px;
   top:88px;
 } 
 .github{
-  background: url($sprite) -287px 0px;
+  background: url($sprite) -400px  0px;
   height:138px;
   width:115px;
   left:242px;
